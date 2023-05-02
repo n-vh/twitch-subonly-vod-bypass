@@ -1,0 +1,9 @@
+name = "vod"
+main = "src/index.ts"
+compatibility_date = "2022-07-22"
+send_metrics = true
+node_compat = true
+kv_namespaces = [
+  { binding = "PLAYLISTS", id = "e641aa1bd08643f1859b419e94a4fe5a", preview_id = "846178526fab4b749dfc42aba5c57a95" },
+  { binding = "PREVIEWS", id = "fbcc8935816441fd912ee3efe5494977", preview_id = "318f2d488188444399c011203ef26597"} 
+]

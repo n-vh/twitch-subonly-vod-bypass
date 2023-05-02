@@ -1,0 +1,17 @@
+{
+  "name": "twitch-vod-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.14.1",
+    "typescript": "^4.7.4",
+    "wrangler": "2.0.22"
+  },
+  "dependencies": {
+    "itty-router": "^2.6.1"
+  }
+}
