@@ -7,6 +7,6 @@ To use this script, you'll need a manager like [Violentmonkey](https://violentmo
 You can also host the wrangler worker on your own Cloudflare if you'd like to.
 
 ### Summary
-The userscript lets you bypass the subonly VODs on Twitch. It replaces the default Twitch player by a Plyr player to be able to load the video.
+The userscript lets you bypass the subonly VODs on Twitch. It replaces the default Twitch player by a Plyr player to be able to load the video. It will not load the Twitch chat replay as it would require more than a simple userscript to implement.
 
 The server is mainly used for caching to prevent a high number of request calls to a Twitch API.
